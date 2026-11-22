@@ -1,9 +1,8 @@
 
 Django>=5.2,<6.0
+django-jazzmin
 gunicorn
 whitenoise
-psycopg2-binary
-dj-database-url
+mysqlclient
 python-dotenv
-
-django-jazzmin
+dj-database-url
