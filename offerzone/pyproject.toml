@@ -1,0 +1,18 @@
+
+[project]
+name = "offerzone"
+version = "0.1.0"
+description = "Django Ecommerce Project"
+requires-python = ">=3.12"
+dependencies = [
+    "Django>=5.2,<6.0",
+    "django-jazzmin",
+    "gunicorn",
+    "whitenoise",
+    "PyMySQL",
+    "python-dotenv",
+    "dj-database-url",
+]
+
+[tool.uv]
+package = false
